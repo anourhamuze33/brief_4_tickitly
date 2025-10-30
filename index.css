@@ -228,3 +228,137 @@ align-items: center;
 font-family: "Roboto", sans-serif;
 font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  ul {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .progress {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .progress::after {
+    width: 20vw;
+    height: 0.4rem;
+    left: 14vw;
+  }
+
+  .progress_p {
+    font-size: 1rem;
+  }
+
+  .etap_title {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .etap_title_1 {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .container_element {
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .container_element1,
+  .container_element2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+
+  .container_element1_card,
+  .container_element2_card {
+    width: 85%;
+    height: auto;
+    padding: 1.5rem 0;
+  }
+
+  .container_inter_article {
+    width: 90%;
+    height: auto;
+    gap: 1.5rem;
+  }
+
+  .event_info_text {
+    height: auto;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+ 
+  .next_btn_conainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .next_btn_background {
+    width: 60%;
+    height: 10vw;
+  }
+  .next_btn_background > a {
+    font-size: 1.2rem;
+  }
+
+  .title_event_background {
+    width: 60%;
+    height: auto;
+    padding: 0.5rem 0;
+  }
+}
+.main_display{
+    display: none;
+}
+
