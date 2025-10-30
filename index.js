@@ -31,3 +31,7 @@ four.onclick = function(){
     four.classList.add("active");
 
 }
+// .steps1]
+// next(0)
+// remove active
+// steps[index].add()
