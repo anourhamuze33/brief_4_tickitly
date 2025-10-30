@@ -228,7 +228,6 @@ align-items: center;
 font-family: "Roboto", sans-serif;
 font-weight: bold;
 }
-
 /* @media(max-width: 1030px){
     ul{
         flex-direction: column;
@@ -486,16 +485,91 @@ margin-left: 8rem;
     padding: 0.5rem 0;
   }
 }
-
 .main_display{
+    display: none;
+}
+
+.section{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    gap:2vw;
 }
-.display_none{
-display: none;
-}
-.display_flex{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formulaire{
+  width: 100%;
+  height: 65vw;
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.section_formulaire{
-  display: none;
+.formulaire_remplissage{
+    width: 45%;
+  height: 60vw;
+  background-image: linear-gradient(
+    to right,
+    #A19BC9,
+    #4F4C63
+  );
+  border-radius: 3rem;
+  border: 0.08rem solid #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.participantes{
+      width: 37.5%;
+  height: 60vw;
+    background-image: linear-gradient(
+    to right,
+    #A19BC9,
+    #4F4C63
+  );
+  border-radius: 3rem;
+  border: 0.08rem solid #FFFFFF;
+}
+.formulaire_remplissage_elements{
+  width: 80%;
+  height: 55vw;
+  background-color: #7e1616;
+}
+.iput_element{
+  display: flex;
+  flex-direction: column;
+}
+.formulaire_remplissage_text{
+  width: 70%;
+  height: 11vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.formulaire_text{
+      font-family: "Roboto", sans-serif; 
+   color: #050125;
+   font-size: 1.5rem;
+    font-weight: bold;
+}
+.nbr_formulair{
+  background-color: #020315;
+  width: 40%;
+  height: 5vw;
 }
