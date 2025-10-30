@@ -35,3 +35,12 @@ four.onclick = function(){
 // next(0)
 // remove active
 // steps[index].add()
+
+const suivant = document.querySelector(".next_btn");
+function display(){
+    suivant.addEventListener("click", function display(e) {
+        main_display.classList.add("display_none");
+        section_nbr_tickets.classList.add("display_flex"); 
+    });
+
+}
