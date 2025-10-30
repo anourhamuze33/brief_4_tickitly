@@ -229,6 +229,134 @@ font-family: "Roboto", sans-serif;
 font-weight: bold;
 }
 
+/* @media(max-width: 1030px){
+    ul{
+        flex-direction: column;
+    }
+    li{
+        flex-direction: row;
+    }
+    .progress::after{
+          width: 5vw;
+  height: 14vw;
+    }
+    .container_element1_card{
+        flex-wrap: wrap;
+        
+    }
+} */
+.textt{
+    width: 30%;
+    height: 10vw;
+        display: flex;
+    justify-content: flex-end;
+}
+.text_info{
+   
+    width: 76%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_info_text{
+   font-family: "Roboto", sans-serif; 
+   color: #FFFFFF;
+   font-size: 1.5rem;
+}
+.nombre_tickets{
+    
+        width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+.nombre_tickets_element{
+    
+           width: 80%;
+           height: 15vw;
+           background-image: linear-gradient(
+            to right,
+            #D7D0FF,
+            #817D99
+           );
+           border-radius: 1.16rem;
+           border: 0.13rem solid #FFFFFF;
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+}
+.conteur_des_tickets{
+    width: 40%;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.ajouter_des_tickets{
+      width: 40%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+   
+}
+
+.ajouter_des_tickets_elements{
+        width: 70%;
+    height: 8vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ajouter_et_supprimer{
+background-color: #CEC9D9;
+        width: 35%;
+       height: 8vw;
+         border-radius: 2rem;
+           border: 0.15rem solid #000000;
+               display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nombre_tickets_text{
+    font-family: "Roboto", sans-serif; 
+   color: #050125;
+   font-size: 1.5rem;
+    font-weight: bold;
+}
+.conteur{
+    width: 40%;
+    height: 6vw;
+    background-color: #090421;
+               border-radius: 0.7rem;
+           border: 0.03rem solid #FFFFFF;
+           display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.conteur_nbr{
+   color: #FFFFFF;
+   font-size: 3rem; 
+}
+.plus{
+    color:#090421 ;
+    font-size: 4rem;
+}
+.swivant_precedent_align{
+  display: flex;
+    justify-content: space-around;
+}
+.btn_container{
+width: 29vw;
+margin-left: 8rem;
+}
+.section_nbr_tickets{
+  display: none;
+}
 
 
 
@@ -362,3 +490,9 @@ font-weight: bold;
     display: none;
 }
 
+.section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:2vw;
+}
