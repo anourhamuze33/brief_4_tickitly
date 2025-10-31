@@ -353,14 +353,20 @@ background-color: #CEC9D9;
 width: 29vw;
 margin-left: 8rem;
 }
+
+
 .section_nbr_tickets{
   display: none;
 }
 .section_formulaire{
   display: none;
 }
-
-
+.reservation_confirmation{
+display: none;
+}
+.main_display{
+    display: flex;
+}
 
 
 
@@ -509,16 +515,8 @@ margin-left: 8rem;
     padding: 0.5rem 0;
   }
 }
-.main_display{
-    display: none;
-}
 
-.section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap:2vw;
-}
+
 
 
 
