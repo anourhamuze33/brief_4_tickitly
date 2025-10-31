@@ -37,7 +37,6 @@ main{
   font-weight: bold;
   width: 50%;
   height: 15vw;
-  background-color: aqua;
   margin-left: 10vw;
   
 
@@ -367,7 +366,9 @@ display: none;
 .main_display{
     display: flex;
 }
-
+.display{
+  display: block;
+} 
 
 
 
