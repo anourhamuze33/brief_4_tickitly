@@ -343,35 +343,50 @@
             <div class="formulaire_remplissage_text">
                 <p class="formulaire_text">nombre des participant disponible</p>
                 <div class="nbr_formulair">
-                    
+                    <p>1-8</p>
                 </div>
             </div>
             <div>
-                <form>
+                <form class="form_input">
                     <div class="iput_element">
                     <label for="Prenome" class="labeltag">Prenome</label>
                     <input id="Prenome" type="text" class="input_formulaire">
                     </div>
                     <div class="iput_element">
-                    <label for="Nom">Nom</label>
-                    <input id="Nom" type="text">
+                    <label for="Nom" class="labeltag">Nom</label>
+                    <input id="Nom" type="text" class="input_formulaire">
                     </div>
                     <div class="iput_element">
-                    <label for="Email">Email</label>
-                    <input id="Email" type="email">
+                    <label for="Email" class="labeltag">Email</label>
+                    <input id="Email" type="email" class="input_formulaire">
                     </div>
                     <div class="iput_element">
-                    <label for="Telephone">Telephone</label>
-                    <input id="Telephone" type="tel">
+                    <label for="Telephone" class="labeltag">Telephone</label>
+                    <input id="Telephone" type="tel" class="input_formulaire">
                     </div>
                 </form>
             </div>
-            <div>
-                <button>Enregistrer</button>
+            <div class="btn_enregi_div">
+                <button class="btn_enregi">Enregistrer</button>
             </div>
         </div>
     </div>
-    <div class="participantes"></div>
+    <div class="participantes">
+        <div class="paricipant_info_container">
+            <div class="formulaire_text_conta">
+         <p class="formulaire_text">les paritcipant enregistrees:</p>
+            </div>
+
+        <div class="paricipant_info">
+            <div class="paricipant_info_elements">
+            <h2 class="head_participant">l'evenement name</h2>
+            <p>Prenom Nom: hamza anouar</p>
+            <p>Email: anourhamuze@gmail.com</p>
+            <p>Telephone: +212 687132488</p>
+            </div>
+        </div>
+        </div>
+    </div>
 
 
 </div>
@@ -399,6 +414,91 @@
     </div>
     </div>
     </section>
+
+
+
+
+     <section class="reservation_confirmation">
+<header class="etap_title">
+        <h3 class="etap_title_1">Etape 1: Selection des evenements</h3>
+    </header>
+
+    <div class="etap2_container">
+        <div class="bar_prog">
+     <ul>
+           <li>
+            <div class="progress one">
+                <p class="progress_p">1</p>
+            </div>
+           </li>
+            <li>
+            <div class="progress two">
+                <p class="progress_p">2</p>
+            </div>
+           </li>
+            <li>
+            <div class="progress three">
+                <p class="progress_p">3</p>
+            </div>
+           </li>
+            <li>
+            <div class="progress four" id="fourth_progress">
+                <p class="progress_p">4</p>
+            </div>
+           </li>
+     </ul>
+     </div>
+
+
+<div class="textt">
+<div class="text_info">
+<p class="text_info_text">choisir le nombre de billets à réserver</p>
+</div>
+</div>
+
+
+      <div class="reservation">
+        <div class="reservation_div">
+            <div class="reservation_align">
+         <p class="formulaire_text">les paritcipant enregistrees:</p>
+         
+        <div class="reservation_titls">
+            <p class="reservation_title">Nombre de billets: ??</p>
+            <p class="reservation_title">Les participants:</p>
+        </div>
+            <div class="reservation_info">
+                <div class="reservation_info_align">
+            <p class="reservation_participent_info">Prenom Nom: hamza anouar</p>
+            <p class="reservation_participent_info">Email: anourhamuze@gmail.com</p>
+            <p class="reservation_participent_info">Telephone: +212 687132488</p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+     <div class="next_btn">
+        <div class="btn_container">
+            <div class="next_btn_background">
+                <a href="#">precedent</a>
+            </div>
+        </div>
+    </div>
+
+     </section>
+
+
+
+
+
+
     <script src="index.js"></script>
 </body>
 </html>
