@@ -557,6 +557,7 @@ display: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .participantes{
       width: 37.5%;
@@ -569,6 +570,7 @@ display: none;
   border-radius: 3rem;
   border: 0.08rem solid #FFFFFF;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -678,6 +680,7 @@ height: 4vw;
   gap: 3rem;
   width: 80%;
   height: 55vw;
+  overflow: scroll;
 }
 .paricipant_info_elements{
     display: flex;
@@ -695,6 +698,9 @@ font-size: 1.7rem;
 }
 .formulaire_text_conta{
   width: 70%;
+}
+.event_prevent{
+pointer-events: none;
 }
 
 
@@ -783,4 +789,21 @@ justify-content: space-evenly;
     font-size: 1rem;
     font-weight: bold;
     color: #ffffff;
+}
+
+
+
+.input-error {
+  border: 2px solid red;
+  background-color: #ffe4e4;
+}
+.input-valid {
+  border: 2px solid green;
+  background-color: #e6ffe6;
+}
+
+
+
+.activate{
+border: 5px solid #ff0000;
 }

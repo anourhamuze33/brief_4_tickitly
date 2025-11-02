@@ -68,7 +68,7 @@
                             <p>Rabat</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">80 MAD</p>
+                            <p><span class="pay">80</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">12</span> places</p>
@@ -89,7 +89,7 @@
                             <p>Casablanca</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">120 MAD</p>
+                            <p><span class="pay">120</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">8</span> places</p>
@@ -110,7 +110,7 @@
                             <p>Tanger</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">350 MAD</p>
+                            <p><span class="pay">350</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">4</span> places</p>
@@ -135,7 +135,7 @@
                             <p>Fès</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">600 MAD</p>
+                            <p><span class="pay">600</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">5</span> places</p>
@@ -158,7 +158,7 @@
                             <p>Tanger</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">78 MAD</p>
+                            <p><span class="pay">78</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">30</span> places</p>
@@ -180,7 +180,7 @@
                             <p>Marrakech</p>
                         </div>
                         <div class="event_info_text">
-                            <p class="pay">200 MAD</p>
+                            <p><span class="pay">200</span>MAD</p>
                         </div>
                         <div class="event_info_text">
                             <p><span class="nbr_places">7</span> places</p>
@@ -334,36 +334,37 @@
             <div class="formulaire_remplissage_text">
                 <p class="formulaire_text">nombre des participant disponible</p>
                 <div class="nbr_formulair">
-                    <p>1-8</p>
+                    <p> <span id="incri">0</span>-<span class="nbr_total">0</span></p>
                 </div>
             </div>
             <div>
                 <form class="form_input">
                     <div class="iput_element">
                     <label for="Prenome" class="labeltag">Prenome</label>
-                    <input id="Prenome" type="text" class="input_formulaire">
+                    <input id="Prenome" type="text" class="input_formulaire" >
                     <span class="errore"></span>
                     </div>
                     <div class="iput_element">
                     <label for="Nom" class="labeltag">Nom</label>
-                    <input id="Nom" type="text" class="input_formulaire">
+                    <input id="Nom" type="text" class="input_formulaire" required>
                     <span class="errore"></span>
                     </div>
                     <div class="iput_element">
                     <label for="Email" class="labeltag">Email</label>
-                    <input id="Email" type="email" class="input_formulaire">
+                    <input id="Email" type="email" class="input_formulaire" required>
                     <span class="errore"></span>
                     </div>
                     <div class="iput_element">
                     <label for="Telephone" class="labeltag">Telephone</label>
-                    <input id="Telephone" type="tel" class="input_formulaire">
+                    <input id="Telephone" type="tel" class="input_formulaire" required>
                     <span class="errore"></span>
                     </div>
+            <div class="btn_enregi_div">
+                <button type="submit" class="btn_enregi">Enregistrer</button>
+            </div>
                 </form>
             </div>
-            <div class="btn_enregi_div">
-                <button class="btn_enregi">Enregistrer</button>
-            </div>
+
         </div>
     </div>
     <div class="participantes">
@@ -385,12 +386,7 @@
 
 
 </div>
-
-
-
-
-
-    <div class="swivant_precedent">
+        <div class="swivant_precedent">
         <div class="swivant_precedent_align">
      <div class="next_btn" id="4">
         <div class="btn_container">
@@ -458,19 +454,10 @@
          <p class="formulaire_text">les paritcipant enregistrees:</p>
          
         <div class="reservation_titls">
-            <p class="reservation_title">Nombre de billets: ??</p>
+            <p class="reservation_title">Nombre de billets: <span id="nbr_part"></span></p>
+            <p class="reservation_title">le prix totale est: <span class="prix_total"></span></p>
             <p class="reservation_title">Les participants:</p>
-        </div>
-            <div class="reservation_info">
-                <div class="reservation_info_align">
-            <p class="reservation_participent_info">Prenom Nom: hamza anouar</p>
-            <p class="reservation_participent_info">Email: anourhamuze@gmail.com</p>
-            <p class="reservation_participent_info">Telephone: +212 687132488</p>
-                </div>
-            </div>
-        </div>
-
-
+            
         </div>
       </div>
 
@@ -494,7 +481,7 @@
 
 
 
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
 
